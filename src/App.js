@@ -1,10 +1,9 @@
-import './App.css';
-import Login from './Pages/Login';
-
-function App() {
-  return (
-    <Login/>
+import Home from './Pages/Home'
+const App = () =>{
+  return(
+    <div>
+      <Home/>
+    </div>
   )
 }
-
 export default App;
