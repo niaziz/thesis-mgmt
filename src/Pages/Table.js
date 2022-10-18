@@ -5,7 +5,7 @@ import { Button, EditButton, PageButton } from '../components/Button'
 import { classNames } from '../components/Utils'
 import { SortIcon, SortUpIcon, SortDownIcon } from '../components/Icons'
 
-// Define a default UI for filtering
+//UI Filtering 
 function GlobalFilter({
 
   preGlobalFilteredRows,
@@ -193,7 +193,7 @@ function Table({ columns, data }) {
                           </div>
                         </th>
                       ))}
-                      <div></div>
+                      <th></th>
                     </tr>
                   ))}
                 </thead>
@@ -219,9 +219,9 @@ function Table({ columns, data }) {
                             </td>
                           )
                         })}
-                        <div className='my-2 px-4'>
+                        <td className='my-2 px-4'>
                         <EditButton>Edit</EditButton>
-                        </div>
+                        </td>
                       </tr>
                     )
                   })}
